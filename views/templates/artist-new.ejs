@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %> | New</title>
+</head>
+<body>
+  <h1>Show me your artists</h1>
+  <a href="/">Back</a>
+  <form action="/new" method="POST">
+    Artist Name:
+    <input name="name" type="text" placeholder="Name">
+    Genre:
+    <select name="genre">
+      <option value="Rock">Rock</option>
+      <option value="Country">Country</option>
+      <option value="Classical">Classical</option>
+      <option value="Rap/Hip Hop">Rap&Hip Hop</option>
+      <option value="Dance">Dance</option>
+      <option value="Blues">Blues</option>
+      <option value="World">World</option>
+    </select>
+    Bio:
+    <input name="bio" type="text" placeholder="Bio">
+    <input type="submit" value="Submit Info">
+  </form>
+
+</body>

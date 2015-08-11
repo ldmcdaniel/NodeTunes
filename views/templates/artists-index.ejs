@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %> | List</title>
+</head>
+<body>
+  <h1>Show me your artists</h1>
+  <a href='/new'>Submit new artist</a>
+  <table>
+    <thead>
+      <th>Artist</th>
+      <th>Genre</th>
+      <th>Bio</th>
+    </thead>
+    <tbody>
+    <% artists.forEach(function (artist) { %>
+      <tr>
+        <td><%= artist.name %></td>
+        <td><%= artist.genre %></td>
+        <td><%= artist.bio %></td>
+      </tr>
+      <% }) %>
+    </tbody>
+  </table>
+
+</body>

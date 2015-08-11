@@ -1,6 +1,7 @@
 var fs = require('fs');
 
 var express = require('express');
+var bodyParser = require('body-parser');
 
 var artists = require('./routes/artists');
 
@@ -11,8 +12,9 @@ require('./lib/mongodb');
 app.set('view engine', 'ejs');
 
 app.locals.title = 'NodeTunes';
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.use('/artists', artists);
+app.use('/', artists);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
