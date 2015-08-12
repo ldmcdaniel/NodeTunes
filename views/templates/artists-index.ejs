@@ -5,7 +5,10 @@
 </head>
 <body>
   <h1>Show me your artists</h1>
-  <a href='/new'>Submit new artist</a>
+  <a href='/new'>Submit new Artist</a>
+  <br>
+  <a href='/albums'>Submit new Albums</a>
+  <br>
   <table>
     <thead>
       <th>Artist</th>
@@ -18,6 +21,11 @@
         <td><%= artist.name %></td>
         <td><%= artist.genre %></td>
         <td><%= artist.bio %></td>
+        <td>
+          <form action="/delete/<%= artist._id %>" method="POST">
+            <input type="submit" value="X">
+          </form>
+        </td>
       </tr>
       <% }) %>
     </tbody>
