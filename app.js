@@ -17,6 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/', artists);
 app.use('/albums', albums)
+app.use(express.static('www'));
 
 var server = app.listen(3000, function () {
   var host = server.address().address;

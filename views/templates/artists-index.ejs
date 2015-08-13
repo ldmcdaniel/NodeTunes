@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title><%= title %> | List</title>
-</head>
-<body>
+<%- include('stylesheets', {page: 'List'}) %>
+
   <h1>Show me your artists</h1>
   <a href='/new'>Submit new Artist</a>
   <br>
@@ -14,6 +10,7 @@
       <th>Artist</th>
       <th>Genre</th>
       <th>Bio</th>
+      <th>Delete</th>
     </thead>
     <tbody>
     <% artists.forEach(function (artist) { %>
@@ -31,4 +28,4 @@
     </tbody>
   </table>
 
-</body>
+<%- include('javascripts') %>

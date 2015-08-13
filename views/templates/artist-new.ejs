@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title><%= title %> | New</title>
-</head>
-<body>
+<%- include('stylesheets', {page: 'New'}) %>
+
   <h1>Show me your artists</h1>
   <a href="/">Back</a>
   <form action="/new" method="POST">
@@ -24,4 +20,5 @@
     <input type="submit" value="Submit Info">
   </form>
 
-</body>
+<%- include('javascripts') %>
+
