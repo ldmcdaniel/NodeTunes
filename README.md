@@ -37,28 +37,17 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 >http://docs.mongodb.org/master/installation/
 
-Then, in terminal:
-
+*Then, in terminal:*
 ````mongod````
 
 *In another terminal window:*
-
-````mongo
-
-use nodeTunes
-
-db.createCollection("artists")
-
-db.createCollection("albums")
-
-db.createCollection("songs")
-
-use albums````
-
+````mongo````
+````use nodeTunes````
+````db.createCollection("artists")````
+````db.createCollection("albums")````
+````db.createCollection("songs")````
+````use albums````
 *In another terminal window:*
-
 ````nodemon app.js````
-
 *Go to this url in the browser:*
-
 ````http://localhost:3000````
