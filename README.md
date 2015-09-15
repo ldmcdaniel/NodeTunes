@@ -14,51 +14,43 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 *If you don't have NPM yet, from terminal:*
 
-````curl https://npmjs.org/install.sh | sh````
+`curl https://npmjs.org/install.sh | sh`
 
-*In your browser, navigate to:*
->https://github.com/ldmcdaniel/NodeTunes
+In your browser, navigate to [the repo] (https://github.com/ldmcdaniel/NodeTunes).
 
-*In the top-right corner of the page, click Fork.*
+In the top-right corner of the page, click Fork.
 
-*In your designated code directory, type:*
+In your designated code directory, type:
 
-````git clone https://github.com/Your-Username/NodeTunes````
+`git clone https://github.com/Your-Username/NodeTunes`
 
-*From Terminal:*
+From Terminal:
 
-````cd NodeTunes/````
+```sh
+cd NodeTunes/
+npm install
+bower install
+```
 
-````npm install````
+Install MongoDB following [these directions] (http://docs.mongodb.org/master/installation/).
 
-````bower install````
+Then, in terminal:
 
-*Install MongoDB following these directions:*
+`mongod`
 
->http://docs.mongodb.org/master/installation/
+In *another* terminal window:
 
-_Then, in terminal:_
+```sh
+mongo
+use nodeTunes
+db.createCollection("artists")
+db.createCollection("albums")
+db.createCollection("songs")
+use albums
+```
 
-```mongod```
+In *another* terminal window:
 
-*In another terminal window:*
+`nodemon app.js`
 
-```mongo```
-
-```use nodeTunes```
-
-```db.createCollection("artists")```
-
-```db.createCollection("albums")```
-
-```db.createCollection("songs")```
-
-```use albums```
-
-*In another terminal window:*
-
-```nodemon app.js```
-
-*Go to this url in the browser:*
-
-```http://localhost:3000```
+Go to [this url] (http://localhost:3000) in the browser to view the application.
