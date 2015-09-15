@@ -37,7 +37,7 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 >http://docs.mongodb.org/master/installation/
 
-*Then, In terminal:*
+*Then, in terminal:*
 
 ````mongod````
 
