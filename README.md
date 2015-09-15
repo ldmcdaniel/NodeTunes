@@ -47,11 +47,11 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 ````use nodeTunes````
 
-````db.createCollection('artists')````
+````db.createCollection("artists")````
 
-````db.createCollection('albums')````
+````db.createCollection("albums")````
 
-````db.createCollection('songs')````
+````db.createCollection("songs")````
 
 ````use albums````
 
