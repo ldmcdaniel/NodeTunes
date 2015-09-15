@@ -35,9 +35,9 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 *Install MongoDB following these directions:*
 
-````http://docs.mongodb.org/master/installation/````
+>http://docs.mongodb.org/master/installation/
 
-*In terminal:*
+*Then, In terminal:*
 
 ````mongod````
 
