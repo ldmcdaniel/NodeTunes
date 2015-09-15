@@ -43,7 +43,7 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 *In another terminal window:*
 
-````mongo````
+````Mongo````
 
 ````use nodeTunes````
 
