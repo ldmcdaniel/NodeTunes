@@ -33,7 +33,9 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 ````bower install````
 
-*Install MongoDB following these directions http://docs.mongodb.org/master/installation/*
+*Install MongoDB following these directions:*
+
+````http://docs.mongodb.org/master/installation/````
 
 *In terminal:*
 
@@ -59,4 +61,4 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 *Go to this url in the browser:*
 
->http://localhost:3000
+````http://localhost:3000````
