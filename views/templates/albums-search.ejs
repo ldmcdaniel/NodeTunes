@@ -1,9 +1,13 @@
 <%- include('stylesheets', {page: 'Album search'}) %>
 
   <h1>Search for an Artist to Submit New Albums</h1>
+  <a href='/new'>Submit new Artist</a>
+  <br>
+  <a href='/albums'>Submit new Albums</a>
+  <br>
   <form>
-    <input type="search" placeholder="Search for an Artist" name="artist"></input>
-    <input type="submit" placeholder="Click me to Search!"></input>
+    <input type="search" placeholder="Search for an Artist" name="artist" class="artist"></input>
+    <input type="submit" class="submit" placeholder="Click me to Search!"></input>
     <!-- <input></input> -->
   </form>
   <div>

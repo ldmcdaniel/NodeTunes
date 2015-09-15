@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
     //       genre: album.genre
     //     }
     //   });
-      res.render('templates/albums-search')
+  res.render('templates/albums-search');
         // {albums: submittedAlbums, artists: submittedArtists}
         // );
   // });
