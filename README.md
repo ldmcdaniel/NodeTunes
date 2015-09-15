@@ -39,26 +39,26 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 _Then, in terminal:_
 
-````mongod````
+```mongod```
 
 *In another terminal window:*
 
-````mongo````
+```mongo```
 
-````use nodeTunes````
+```use nodeTunes```
 
-````db.createCollection("artists")````
+```db.createCollection("artists")```
 
-````db.createCollection("albums")````
+```db.createCollection("albums")```
 
-````db.createCollection("songs")````
+```db.createCollection("songs")```
 
-````use albums````
+```use albums```
 
 *In another terminal window:*
 
-````nodemon app.js````
+```nodemon app.js```
 
 *Go to this url in the browser:*
 
-````http://localhost:3000````
+```http://localhost:3000```
