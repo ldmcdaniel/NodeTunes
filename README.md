@@ -43,17 +43,17 @@ NPM, Node.js, Express.js, EJS, Body-parser, MongoDB, jQuery, and Foundation.
 
 *In another terminal window:*
 
-````Mongo````
+````mongo
 
-````use nodeTunes````
+use nodeTunes
 
-````db.createCollection("artists")````
+db.createCollection("artists")
 
-````db.createCollection("albums")````
+db.createCollection("albums")
 
-````db.createCollection("songs")````
+db.createCollection("songs")
 
-````use albums````
+use albums````
 
 *In another terminal window:*
 
